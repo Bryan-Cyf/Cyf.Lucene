@@ -22,7 +22,7 @@ namespace Ruanmou.LuceneProject.Service
     /// <summary>
     /// 多线程的问题 ：多文件写，然后合并
     /// 延时：异步队列
-    /// 
+    /// 索引的增-删-改-查，合并
     /// </summary>
     public class LuceneBulid : ILuceneBulid
     {
