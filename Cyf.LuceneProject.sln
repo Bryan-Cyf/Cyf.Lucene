@@ -5,6 +5,18 @@ VisualStudioVersion = 16.0.29806.167
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Cyf.LuceneProject", "Cyf.LuceneProject\Cyf.LuceneProject.csproj", "{B66B2431-DD4A-44AF-B3CE-586D6F860F54}"
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "LuceneSearch", "LuceneSearch", "{AF89C97B-0524-457C-A963-AFD40576D9F4}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Cyf.Core", "Cyf.Core\Cyf.Core.csproj", "{BEA06F60-2338-4470-A2F0-DED4D6C4CD8F}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Cyf.SearchEngines", "Cyf.SearchEngines\Cyf.SearchEngines.csproj", "{050DBDFC-EB59-472A-B30E-D5918F8DF3C0}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Cyf.SearchEngines.LuceneService", "Cyf.SearchEngines.LuceneService\Cyf.SearchEngines.LuceneService.csproj", "{0FE9AA01-42B5-47DE-874A-C9BD046B6ABE}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Cyf.SearchEngines.SearchService", "Cyf.SearchEngines.SearchService\Cyf.SearchEngines.SearchService.csproj", "{1C3CF41F-4B68-426B-A123-B8F17D4D21CE}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Cyf.SearchEngines.UnitTestProject", "Cyf.SearchEngines.UnitTestProject\Cyf.SearchEngines.UnitTestProject.csproj", "{FC2106C2-C907-414E-956E-5CA6232C2D13}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -15,9 +27,36 @@ Global
 		{B66B2431-DD4A-44AF-B3CE-586D6F860F54}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{B66B2431-DD4A-44AF-B3CE-586D6F860F54}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{B66B2431-DD4A-44AF-B3CE-586D6F860F54}.Release|Any CPU.Build.0 = Release|Any CPU
+		{BEA06F60-2338-4470-A2F0-DED4D6C4CD8F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BEA06F60-2338-4470-A2F0-DED4D6C4CD8F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BEA06F60-2338-4470-A2F0-DED4D6C4CD8F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BEA06F60-2338-4470-A2F0-DED4D6C4CD8F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{050DBDFC-EB59-472A-B30E-D5918F8DF3C0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{050DBDFC-EB59-472A-B30E-D5918F8DF3C0}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{050DBDFC-EB59-472A-B30E-D5918F8DF3C0}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{050DBDFC-EB59-472A-B30E-D5918F8DF3C0}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0FE9AA01-42B5-47DE-874A-C9BD046B6ABE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0FE9AA01-42B5-47DE-874A-C9BD046B6ABE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0FE9AA01-42B5-47DE-874A-C9BD046B6ABE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0FE9AA01-42B5-47DE-874A-C9BD046B6ABE}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1C3CF41F-4B68-426B-A123-B8F17D4D21CE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1C3CF41F-4B68-426B-A123-B8F17D4D21CE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1C3CF41F-4B68-426B-A123-B8F17D4D21CE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1C3CF41F-4B68-426B-A123-B8F17D4D21CE}.Release|Any CPU.Build.0 = Release|Any CPU
+		{FC2106C2-C907-414E-956E-5CA6232C2D13}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FC2106C2-C907-414E-956E-5CA6232C2D13}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FC2106C2-C907-414E-956E-5CA6232C2D13}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FC2106C2-C907-414E-956E-5CA6232C2D13}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{BEA06F60-2338-4470-A2F0-DED4D6C4CD8F} = {AF89C97B-0524-457C-A963-AFD40576D9F4}
+		{050DBDFC-EB59-472A-B30E-D5918F8DF3C0} = {AF89C97B-0524-457C-A963-AFD40576D9F4}
+		{0FE9AA01-42B5-47DE-874A-C9BD046B6ABE} = {AF89C97B-0524-457C-A963-AFD40576D9F4}
+		{1C3CF41F-4B68-426B-A123-B8F17D4D21CE} = {AF89C97B-0524-457C-A963-AFD40576D9F4}
+		{FC2106C2-C907-414E-956E-5CA6232C2D13} = {AF89C97B-0524-457C-A963-AFD40576D9F4}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {2E5A33A1-AA44-4B42-A7B8-B475A74F938A}
