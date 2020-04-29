@@ -7,7 +7,7 @@ using log4net;
 using Newtonsoft.Json;
 using System.Collections.Generic;
 
-namespace Ruanmou.LuceneProject.Utility
+namespace Cyf.LuceneProject.Utility
 {
     public class Logger
     {

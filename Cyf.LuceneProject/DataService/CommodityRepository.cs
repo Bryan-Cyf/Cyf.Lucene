@@ -5,10 +5,10 @@ using System.IO;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
-using Ruanmou.LuceneProject.Model;
-using Ruanmou.LuceneProject.Utility;
+using Cyf.LuceneProject.Model;
+using Cyf.LuceneProject.Utility;
 
-namespace Ruanmou.LuceneProject.DataService
+namespace Cyf.LuceneProject.DataService
 {
     /// <summary>
     /// 数据库查询

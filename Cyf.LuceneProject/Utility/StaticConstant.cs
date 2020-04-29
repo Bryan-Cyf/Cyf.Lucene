@@ -5,7 +5,7 @@ using System.Text;
 using System.Threading.Tasks;
 using System.Configuration;
 
-namespace Ruanmou.LuceneProject.Utility
+namespace Cyf.LuceneProject.Utility
 {
     public class StaticConstant
     {

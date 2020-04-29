@@ -5,19 +5,19 @@ using Lucene.Net.Index;
 using Lucene.Net.QueryParsers;
 using Lucene.Net.Search;
 using Lucene.Net.Store;
-using Ruanmou.LuceneProject.Interface;
-using Ruanmou.LuceneProject.Service;
+using Cyf.LuceneProject.Interface;
+using Cyf.LuceneProject.Service;
 using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using System.Configuration;
-using Ruanmou.LuceneProject.Model;
-using Ruanmou.LuceneProject.DataService;
-using Ruanmou.LuceneProject.Utility;
+using Cyf.LuceneProject.Model;
+using Cyf.LuceneProject.DataService;
+using Cyf.LuceneProject.Utility;
 
-namespace Ruanmou.LuceneProject
+namespace Cyf.LuceneProject
 {
     /// <summary>
     /// lucene show

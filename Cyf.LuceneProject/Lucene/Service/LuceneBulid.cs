@@ -5,8 +5,8 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 
-using Ruanmou.LuceneProject.Interface;
-using Ruanmou.LuceneProject.Model;
+using Cyf.LuceneProject.Interface;
+using Cyf.LuceneProject.Model;
 
 using Lucene.Net.Analysis;
 using Lucene.Net.Analysis.PanGu;
@@ -15,9 +15,9 @@ using Lucene.Net.Documents;
 using Lucene.Net.Index;
 using Lucene.Net.Util;
 using LuceneIO = Lucene.Net.Store;
-using Ruanmou.LuceneProject.Utility;
+using Cyf.LuceneProject.Utility;
 
-namespace Ruanmou.LuceneProject.Service
+namespace Cyf.LuceneProject.Service
 {
     /// <summary>
     /// 多线程的问题 ：多文件写，然后合并

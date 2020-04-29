@@ -6,8 +6,8 @@
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
     <ProjectGuid>{B66B2431-DD4A-44AF-B3CE-586D6F860F54}</ProjectGuid>
     <OutputType>Exe</OutputType>
-    <RootNamespace>Ruanmou.LuceneProject</RootNamespace>
-    <AssemblyName>Ruanmou.LuceneProject</AssemblyName>
+    <RootNamespace>Cyf.LuceneProject</RootNamespace>
+    <AssemblyName>Cyf.LuceneProject</AssemblyName>
     <TargetFrameworkVersion>v4.5</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
   </PropertyGroup>

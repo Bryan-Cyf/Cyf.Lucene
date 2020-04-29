@@ -4,7 +4,7 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 
-namespace Ruanmou.LuceneProject.Interface
+namespace Cyf.LuceneProject.Interface
 {
     public interface ILuceneAnalyze
     {

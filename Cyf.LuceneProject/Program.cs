@@ -1,13 +1,13 @@
-﻿using Ruanmou.LuceneProject.DataService;
-using Ruanmou.LuceneProject.Model;
-using Ruanmou.LuceneProject.Processor;
+﻿using Cyf.LuceneProject.DataService;
+using Cyf.LuceneProject.Model;
+using Cyf.LuceneProject.Processor;
 using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace Ruanmou.LuceneProject
+namespace Cyf.LuceneProject
 {
     /// <summary>
     /// 1 lucene.net全文检索简介

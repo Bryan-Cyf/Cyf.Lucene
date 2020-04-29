@@ -1,8 +1,8 @@
-﻿using Ruanmou.LuceneProject.DataService;
-using Ruanmou.LuceneProject.Interface;
-using Ruanmou.LuceneProject.Model;
-using Ruanmou.LuceneProject.Service;
-using Ruanmou.LuceneProject.Utility;
+﻿using Cyf.LuceneProject.DataService;
+using Cyf.LuceneProject.Interface;
+using Cyf.LuceneProject.Model;
+using Cyf.LuceneProject.Service;
+using Cyf.LuceneProject.Utility;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -10,7 +10,7 @@ using System.Text;
 using System.Threading.Tasks;
 using System.Threading;
 
-namespace Ruanmou.LuceneProject.Processor
+namespace Cyf.LuceneProject.Processor
 {
     public class IndexBuilderPerThread
     {

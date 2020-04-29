@@ -1,4 +1,4 @@
-﻿using Ruanmou.LuceneProject.Utility;
+﻿using Cyf.LuceneProject.Utility;
 using System;
 using System.Collections.Generic;
 using System.Configuration;
@@ -9,7 +9,7 @@ using System.Reflection;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace Ruanmou.LuceneProject.DataService
+namespace Cyf.LuceneProject.DataService
 {
     public class SqlHelper
     {

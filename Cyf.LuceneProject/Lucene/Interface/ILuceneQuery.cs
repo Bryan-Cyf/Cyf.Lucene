@@ -4,9 +4,9 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 
-using Ruanmou.LuceneProject.Model;
+using Cyf.LuceneProject.Model;
 
-namespace Ruanmou.LuceneProject.Interface
+namespace Cyf.LuceneProject.Interface
 {
     public interface ILuceneQuery
     {

@@ -4,7 +4,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace Ruanmou.LuceneProject.Model
+namespace Cyf.LuceneProject.Model
 {
     public class Commodity : BaseModel
     {

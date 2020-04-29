@@ -14,11 +14,11 @@ using Lucene.Net.Search;
 using Lucene.Net.Util;
 using Lucene.Net.Store;
 using PanGu;
-using Ruanmou.LuceneProject.Interface;
-using Ruanmou.LuceneProject.Model;
-using Ruanmou.LuceneProject.Utility;
+using Cyf.LuceneProject.Interface;
+using Cyf.LuceneProject.Model;
+using Cyf.LuceneProject.Utility;
 
-namespace Ruanmou.LuceneProject.Service
+namespace Cyf.LuceneProject.Service
 {
     public class LuceneQuery : ILuceneQuery
     {

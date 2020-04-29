@@ -1,9 +1,9 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
-# Visual Studio 15
-VisualStudioVersion = 15.0.26228.9
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.29806.167
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Ruanmou.LuceneProject", "Ruanmou.LuceneProject\Ruanmou.LuceneProject.csproj", "{B66B2431-DD4A-44AF-B3CE-586D6F860F54}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Cyf.LuceneProject", "Cyf.LuceneProject\Cyf.LuceneProject.csproj", "{B66B2431-DD4A-44AF-B3CE-586D6F860F54}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -18,5 +18,8 @@ Global
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {2E5A33A1-AA44-4B42-A7B8-B475A74F938A}
 	EndGlobalSection
 EndGlobal

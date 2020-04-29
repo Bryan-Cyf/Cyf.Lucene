@@ -1,16 +1,16 @@
 ﻿using System.Collections.Generic;
 using System.Linq;
 
-using Ruanmou.LuceneProject.Interface;
+using Cyf.LuceneProject.Interface;
 
 using Lucene.Net.Analysis;
 using Lucene.Net.Analysis.PanGu;
 using Lucene.Net.Index;
 using Lucene.Net.QueryParsers;
 using Lucene.Net.Search;
-using Ruanmou.LuceneProject.Utility;
+using Cyf.LuceneProject.Utility;
 
-namespace Ruanmou.LuceneProject.Service
+namespace Cyf.LuceneProject.Service
 {
     public class LuceneAnalyze : ILuceneAnalyze
     {

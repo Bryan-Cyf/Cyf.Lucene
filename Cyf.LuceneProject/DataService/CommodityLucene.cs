@@ -1,14 +1,14 @@
-﻿using Ruanmou.LuceneProject.Interface;
-using Ruanmou.LuceneProject.Model;
-using Ruanmou.LuceneProject.Service;
-using Ruanmou.LuceneProject.Utility;
+﻿using Cyf.LuceneProject.Interface;
+using Cyf.LuceneProject.Model;
+using Cyf.LuceneProject.Service;
+using Cyf.LuceneProject.Utility;
 using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace Ruanmou.LuceneProject.DataService
+namespace Cyf.LuceneProject.DataService
 {
     public class CommodityLucene
     {
